@@ -1,0 +1,155 @@
+
+[{ 
+       "recipesList":[
+        {
+            "id": 1,
+            "imageUrl": "https://picsum.photos/200/300",
+            "name":"Pizza",
+            "ingredients_int":[
+                {"RÅRÖRDA LINGON 100g":[{"weight": 100,"ghg": 0.03}]},
+                {"Svartpeppar 1krm":[{"weight": 0.4,"ghg": 0.00088}]},
+                {"Salt 1 krm":[{"weight": 1.2,"ghg": 0.00009}]},
+                {"Smör 1tsk":[{"weight": 5,"ghg": 0.01}]},
+                {"Ströbröd 1dl":[{"weight": 50,"ghg": 0.004375}]},
+                {"Mjölk 1dl":[{"weight": 100,"ghg": 0.0675}]},
+                {"NÖTFÄRS RULLPACK":[{"weight": 250,"ghg": 3.5}]},
+                {"LÖK GUL ST":[{"weight": 167,"ghg": 0.00835}]},
+                {"MORÖTTER":[{"weight": 300,"ghg": 0.0075}]},
+                {"GURKA ST":[{"weight": 350,"ghg": 0.035}]},
+                {"POTATIS MOS":[{"weight": 450,"ghg": 0.0225}]},
+                {"SOJA KINESISK":[{"weight": 50,"ghg": 0.00075}]},
+                {"Salt 1 tsk":[{"weight": 6,"ghg": 0.00045}]},
+                {"Smör 1msk":[{"weight": 15,"ghg": 0.06}]}
+
+
+            ],
+            "ingredients_ext":[
+              {"bread":[{"weight":38, "ghg":0.08}]},
+              {"carrots":[{"weight":80, "ghg":0.03}]},
+              {"beef":[{"weight":75, "ghg":7.46}]},
+              {"potato":[{"weight":101, "ghg":0.05}]},
+              {"melk":[{"weight":200, "ghg":0.32}]}
+            ],
+            "taxonomy":[
+                {"tags":["lactoseFree", "vegetarian"]},
+                {"ghg_int":3.7},
+                {"ghg_ext":8.01}
+            ],
+            "price":65,
+            "portion":2
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://picsum.photos/200/300",
+            "name":"Pizza",
+            "ingredients_int":[
+                {"RÅRÖRDA LINGON 100g":[{"weight": 100,"ghg": 0.03}]},
+                {"Svartpeppar 1krm":[{"weight": 0.4,"ghg": 0.00088}]},
+                {"Salt 1 krm":[{"weight": 1.2,"ghg": 0.00009}]},
+                {"Smör 1tsk":[{"weight": 5,"ghg": 0.01}]},
+                {"Ströbröd 1dl":[{"weight": 50,"ghg": 0.004375}]},
+                {"Mjölk 1dl":[{"weight": 100,"ghg": 0.0675}]},
+                {"NÖTFÄRS RULLPACK":[{"weight": 250,"ghg": 3.5}]},
+                {"LÖK GUL ST":[{"weight": 167,"ghg": 0.00835}]},
+                {"MORÖTTER":[{"weight": 300,"ghg": 0.0075}]},
+                {"GURKA ST":[{"weight": 350,"ghg": 0.035}]},
+                {"POTATIS MOS":[{"weight": 450,"ghg": 0.0225}]},
+                {"SOJA KINESISK":[{"weight": 50,"ghg": 0.00075}]},
+                {"Salt 1 tsk":[{"weight": 6,"ghg": 0.00045}]},
+                {"Smör 1msk":[{"weight": 15,"ghg": 0.06}]}
+
+
+            ],
+            "ingredients_ext":[
+              {"bread":[{"weight":38, "ghg":0.08}]},
+              {"carrots":[{"weight":80, "ghg":0.03}]},
+              {"beef":[{"weight":75, "ghg":7.46}]},
+              {"potato":[{"weight":101, "ghg":0.05}]},
+              {"melk":[{"weight":200, "ghg":0.32}]}
+            ],
+            "taxonomy":[
+                {"tags":["lactoseFree", "vegetarian"]},
+                {"ghg_int":3.7},
+                {"ghg_ext":8.01}
+            ],
+            "price":65,
+            "portion":2
+        },
+
+        {
+            "id": 3,
+            "imageUrl": "https://picsum.photos/200/300",
+            "name":"Pizza",
+            "ingredients_int":[
+                {"RÅRÖRDA LINGON 100g":[{"weight": 100,"ghg": 0.03}]},
+                {"Svartpeppar 1krm":[{"weight": 0.4,"ghg": 0.00088}]},
+                {"Salt 1 krm":[{"weight": 1.2,"ghg": 0.00009}]},
+                {"Smör 1tsk":[{"weight": 5,"ghg": 0.01}]},
+                {"Ströbröd 1dl":[{"weight": 50,"ghg": 0.004375}]},
+                {"Mjölk 1dl":[{"weight": 100,"ghg": 0.0675}]},
+                {"NÖTFÄRS RULLPACK":[{"weight": 250,"ghg": 3.5}]},
+                {"LÖK GUL ST":[{"weight": 167,"ghg": 0.00835}]},
+                {"MORÖTTER":[{"weight": 300,"ghg": 0.0075}]},
+                {"GURKA ST":[{"weight": 350,"ghg": 0.035}]},
+                {"POTATIS MOS":[{"weight": 450,"ghg": 0.0225}]},
+                {"SOJA KINESISK":[{"weight": 50,"ghg": 0.00075}]},
+                {"Salt 1 tsk":[{"weight": 6,"ghg": 0.00045}]},
+                {"Smör 1msk":[{"weight": 15,"ghg": 0.06}]}
+
+
+            ],
+            "ingredients_ext":[
+              {"bread":[{"weight":38, "ghg":0.08}]},
+              {"carrots":[{"weight":80, "ghg":0.03}]},
+              {"beef":[{"weight":75, "ghg":7.46}]},
+              {"potato":[{"weight":101, "ghg":0.05}]},
+              {"melk":[{"weight":200, "ghg":0.32}]}
+            ],
+            "taxonomy":[
+                {"tags":["lactoseFree", "vegetarian"]},
+                {"ghg_int":3.7},
+                {"ghg_ext":8.01}
+            ],
+            "price":65,
+            "portion":2
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://picsum.photos/200/300",
+            "name":"Pizza",
+            "ingredients_int":[
+                {"RÅRÖRDA LINGON 100g":[{"weight": 100,"ghg": 0.03}]},
+                {"Svartpeppar 1krm":[{"weight": 0.4,"ghg": 0.00088}]},
+                {"Salt 1 krm":[{"weight": 1.2,"ghg": 0.00009}]},
+                {"Smör 1tsk":[{"weight": 5,"ghg": 0.01}]},
+                {"Ströbröd 1dl":[{"weight": 50,"ghg": 0.004375}]},
+                {"Mjölk 1dl":[{"weight": 100,"ghg": 0.0675}]},
+                {"NÖTFÄRS RULLPACK":[{"weight": 250,"ghg": 3.5}]},
+                {"LÖK GUL ST":[{"weight": 167,"ghg": 0.00835}]},
+                {"MORÖTTER":[{"weight": 300,"ghg": 0.0075}]},
+                {"GURKA ST":[{"weight": 350,"ghg": 0.035}]},
+                {"POTATIS MOS":[{"weight": 450,"ghg": 0.0225}]},
+                {"SOJA KINESISK":[{"weight": 50,"ghg": 0.00075}]},
+                {"Salt 1 tsk":[{"weight": 6,"ghg": 0.00045}]},
+                {"Smör 1msk":[{"weight": 15,"ghg": 0.06}]}
+
+
+            ],
+            "ingredients_ext":[
+              {"bread":[{"weight":38, "ghg":0.08}]},
+              {"carrots":[{"weight":80, "ghg":0.03}]},
+              {"beef":[{"weight":75, "ghg":7.46}]},
+              {"potato":[{"weight":101, "ghg":0.05}]},
+              {"melk":[{"weight":200, "ghg":0.32}]}
+            ],
+            "taxonomy":[
+                {"tags":["lactoseFree", "vegetarian"]},
+                {"ghg_int":3.7},
+                {"ghg_ext":8.01}
+            ],
+            "price":65,
+            "portion":2
+        }
+    ]}
+
+]
