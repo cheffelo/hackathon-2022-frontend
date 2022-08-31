@@ -43,11 +43,19 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+
 }
 
 .title,
 .description {
   text-align: center;
+}
+
+.header {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: darkgoldenrod;
 }
 
 .description {
@@ -78,6 +86,33 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
+  background-color: burlywood;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.cardgreen {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  background: green;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.cardred {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  background: red;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
