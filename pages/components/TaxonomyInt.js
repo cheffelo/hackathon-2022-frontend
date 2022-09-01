@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import MealCard from "./MealCard";
 import recipes from "../data/recipes.json"
 
 const TaxonomyInt = () => {

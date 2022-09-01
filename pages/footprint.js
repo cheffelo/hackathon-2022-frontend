@@ -5,6 +5,8 @@ import IngridientsList from './components/IngridientsList';
 import IngridientsListExt from './components/IngridientsListExt';
 import TaxonomyInt from './components/TaxonomyInt';
 import { cardGrid, cardItem } from '../node_modules/card-grid/dist-web/index.js';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 function Header({ title }) {
     return <h2 style={{textAlign: "center"}} >{title ? title : 'Default title'}</h2>;
@@ -12,6 +14,11 @@ function Header({ title }) {
   
   
   export default function FootPrint(props) {
+
+    const router=useRouter();
+    const recipeId=sessionStorage.getItem("recipeId");
+
+    
     return (
       <>
     <div><h1 style={{textAlign: "center", color: 'crimson'}} > What's your diet's carbon footprint? </h1></div>

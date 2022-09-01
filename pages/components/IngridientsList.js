@@ -1,10 +1,9 @@
 import clsx from "clsx";
-import MealCard from "./MealCard";
 import recipes from "../data/recipes.json"
 
 const IngridientsList = () => {
     const recipeId=sessionStorage.getItem("recipeId");
-    const ingridients = Object.entries(recipes[0].recipesList[recipeId].ingredients_int);
+    const ingridients = Object.entries(recipes[0].recipesList[recipeId  || 0].ingredients_int);
 
     const test = ingridients.map(item=>item[1])
     return(
