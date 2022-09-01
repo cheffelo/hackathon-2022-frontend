@@ -49,10 +49,11 @@ function Header({ title }) {
                   </div>
                   
             </div>
-    <button className="my-10 flex mx-auto py-1.5 px-4 transition-colors bg-green-600 border active:bg-green-800 font-medium border-green-700 text-white rounded-lg hover:bg-green-700 disabled:opacity-50">
-                Play game:
+            <h2 className="mt-10 text-center">Now you know more about your diet's carbon footprint!!!</h2>
+   <div className="flex justify-center mx-auto mt-5 mb-10 align-text-bottom"><span className="text-xl text-white block py-1.5">Play the</span><button onClick={()=>router.push("/game")} className="mx-2 py-1.5 px-4 transition-colors bg-green-600 border active:bg-green-800 font-medium border-green-700 text-white rounded-lg hover:bg-green-700 disabled:opacity-50">
+                Game
               
-          </button>
+          </button> <span className="text-xl text-whote  block py-1.5">to get a discount!</span></div>
         </div>
       
       </>

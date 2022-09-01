@@ -12,7 +12,7 @@ const hadleClick=(id)=>{
 }
 
   return (
-    <div className="flex">
+    <div className="flex justify-center">
 
   
   {recipes[0].recipesList.map((item) => {
@@ -31,7 +31,7 @@ return(<div tabindex="0" class="focus:outline-none">
                             <p tabindex="0" class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1">30 min</p>
                         </div>
                         <div class="pl-2">
-                        <button className="ease-in-out duration-300 outline-0 border-0" onClick={()=>hadleClick(item.id)}>    <p tabindex="0" class="focus:outline-none text-xs text-gray-600 px-2 bg-green-300 py-1">{item.taxonomy[1].ghg_int} kg co2e</p></button>
+                        <button className="duration-300 ease-in-out border-0 outline-0" onClick={()=>hadleClick(item.id)}>    <p tabindex="0" class="focus:outline-none text-xs text-gray-600 px-2 bg-green-300 py-1">{item.taxonomy[1].ghg_int} kg co2e</p></button>
                         </div>
                     </div>
                 </div>
