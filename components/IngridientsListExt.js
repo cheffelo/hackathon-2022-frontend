@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import recipes from "../../data/recipes.json";
+import recipes from "../data/recipes.json";
 
 const IngridientsListExt = () => {
     const recipeId=sessionStorage.getItem("recipeId");

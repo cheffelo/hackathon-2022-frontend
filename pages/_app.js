@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import ClientOnlyComponent from "./components/ClientOnlyComponent";
+import ClientOnlyComponent from "../components/ClientOnlyComponent";
 
 function MyApp({ Component, pageProps }) {
   return (

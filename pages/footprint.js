@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
-import IngridientsList from './components/IngridientsList';
-import IngridientsListExt from './components/IngridientsListExt';
-import {TaxonomyInt, TaxonomyExt} from './components/TotalGhg';
+import IngridientsList from '../components/IngridientsList';
+import IngridientsListExt from '../components/IngridientsListExt';
+import {TaxonomyInt, TaxonomyExt} from '../components/TotalGhg';
 import { useRouter } from 'next/router';
 
 function Header({ title }) {
