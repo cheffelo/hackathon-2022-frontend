@@ -1,11 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import IngridientsList from './components/IngridientsList';
 import IngridientsListExt from './components/IngridientsListExt';
 import {TaxonomyInt, TaxonomyExt} from './components/TotalGhg';
-import { cardGrid, cardItem } from '../node_modules/card-grid/dist-web/index.js';
-import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 function Header({ title }) {

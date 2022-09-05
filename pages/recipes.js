@@ -1,5 +1,4 @@
-import { cardGrid, cardItem } from '../node_modules/card-grid/dist-web/index.js';
-import recipes from "./data/recipes.json"
+import recipes from "../data/recipes.json";
 import { useRouter } from "next/router";
 
 function Recipes() {
